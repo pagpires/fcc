@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+
+<!--
+FreeCodeCamp Backend API Project 1: timestamp microservice
+AUTHOR: Pires Hong
+DATE: 06/26/2017
+-->
+
+<html>
+
+   <head>
+      <title>Timestamp microservice</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1 class="header">API Basejump: Timestamp microservice</h1>
+        <blockquote>
+          "User stories"
+          <ol>
+            <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+            <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+          </ol>        
+        </blockquote>
+        <h3>Example Usage:</h3>
+        <code>https://timestamp-ms.herokuapp.com/December%2015,%202015</code>
+        <code>https://timestamp-ms.herokuapp.com/1450137600</code>
+        <h3>Example Output:</h3>
+        <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+        
+      </div>
+   </body>
+
+</html>
